@@ -1,0 +1,31 @@
+<protein>
+
+	<meat>
+
+		<white-meat>
+			<pork>
+		</white-meat>
+
+		<red-meat>
+			<beef>
+		</red-meat>
+		
+	</meat>
+
+	<eggs>
+		<quail-egg>
+	</eggs>
+
+	<dairy>
+
+		<milk>
+			<soy-milk>
+		</milk>
+
+		<cheese>
+			<cheddar>
+		</cheese>
+
+	</dairy>
+
+</protein>
