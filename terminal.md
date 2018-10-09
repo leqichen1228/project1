@@ -1,10 +1,11 @@
 # terminal tips
+
 ## commands
 
 - pwd print working directory
 - ls list files
 - cd change directory
-- ds ..
+- cd .. goes up a folder
 
 
 ## tips
@@ -18,6 +19,7 @@
 - git status
 - git add ________
 
-to upload ato github
+to upload to github
 
 - git commit -am "some message"
+- git push origin master
