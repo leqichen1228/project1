@@ -1,0 +1,50 @@
+body{
+	color: black;
+	text-align: center;
+	background-color: beige;
+}
+h1{
+	color: #00CC99;
+	text-align: center;
+	text-decoration: underline;
+	padding: 10px 0;
+}
+img{
+	padding: 10px 0;
+}
+h3{
+	font-family: "Myriad Pro";
+}
+#survive{
+	color: #FF7F50;
+	line-height: 0.6;
+	margin:20px 0 0 0;
+}
+#left{
+	color: #FF7F50;
+	font-family: "Century Gothic";
+	text-decoration: underline;
+}
+#right{
+	color: #FF7F50;
+	font-family: "Century Gothic";
+	text-decoration: underline;
+}
+h4{
+	color: #FF7F50;
+	font-family: "Myriad Pro";
+	margin:40px 0 0 0;
+	line-height: 1.5
+}
+li{
+	font-family: "Myriad Pro";
+}
+#die{
+	color: red;
+	font-family: "Stencil Std";
+}
+#live{
+	color: #003366;
+	font-family: "Stencil Std";
+}
+
