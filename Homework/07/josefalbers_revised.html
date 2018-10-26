@@ -40,6 +40,8 @@ div{
 	height:150px;
 	top:150px;
 	left:150px;
+	transform-origin: 15vmin 0;
+	animation: orbit 6s linear 1;
 }
 #sixth-div{
 	background-color:#007BAE;
@@ -47,6 +49,8 @@ div{
 	height:150px;
 	top:150px;
 	left:300px;
+	transform-origin: 20vmin 0;
+	animation: orbit 3s linear 2;
 }
 #seventh-div{
 	background-color:#42B5D0;
@@ -54,6 +58,8 @@ div{
 	height:150px;
 	top:300px;
 	left:150px;
+	transform-origin: 10vmin 0;
+	animation: orbit 3s linear 2;
 }
 #eighth-div{
 	background-color:#4BCFE6;
@@ -61,7 +67,13 @@ div{
 	height:150px;
 	top:300px;
 	left:300px;
+	animation: orbit 6s linear 1;
 }
+@keyframes orbit{
+	100%{
+		transform: rotateZ(360deg);
+	}
+
 </style>
 </head>
 <body>
