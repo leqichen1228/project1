@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+	h1{
+		text-align: center;
+		float:left;	
+		margin:0px;
+		border:6px solid #FFFFFF;
+	}
+</style>
+</head>
+<body>
+
+	<h1 id="firstphrase">
+		<h1 &nbsp; id="secondphrase"></h1>
+		<h1 &nbsp; id="thirdphrase"></h1>
+	</h1>
+
+<script>
+
+var firstarray = [
+	"Jack was fascinated by",
+	"Jeffery often played",
+	"William hated to play",
+	"Luke had classes of",
+	"Owen was famous for playing",
+	"Andrew surprised us with talent of playing",
+	"Ryan bought an expensive",
+	"Anthony's mother bought him a nice",
+	"George was very good at playing",
+	"Peter's father liked to play"
+	]
+var secondarray = [
+	"accordian",
+	"banjo",
+	"cello",
+	"grand piano",
+	"guitar",
+	"melodica",
+	"piano",
+	"ukulele",
+	"violin",
+	"xylophone",
+	]
+var thirdarray = [
+	"when he was 25.",
+	"when he was 17.",
+	"in high school.",
+	"when he was studying abroad in Japan.",
+	"when he was studying abroad in England.",
+	"in college.",
+	"during the years he spent in France.",
+	"when he was in Florence.",
+	"when he was in China.",
+	"when he was in his sophomore year of college.",
+	]
+var number = Math.random() * 10;
+var integer = parseInt(number);
+
+document.getElementById("firstphrase").innerHTML = firstarray[integer];
+
+document.getElementById("secondphrase").innerHTML = secondarray[integer];
+
+document.getElementById("thirdphrase").innerHTML = thirdarray[integer];
+
+</script>
+
+</body>
+</html>
