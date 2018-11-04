@@ -1,0 +1,58 @@
+<protein>
+
+	<meat>
+
+		<white-meat>
+			<pork>
+			<chicken>
+			<duck>
+		</white-meat>
+
+		<red-meat>
+			<beef>
+			<lamb>
+		</red-meat>
+		
+	</meat>
+
+	<seafood>	
+		<crab>
+		<lobster>
+		<mussel>
+		<oyster>
+	</seafood>
+
+	<eggs>
+		<quail-egg>
+		<chicken-egg>
+		<duck-egg>
+
+	</eggs>
+
+	<dairy>
+
+		<milk>
+			<soy-milk>
+		</milk>
+
+		<cheese>
+			<cheddar>
+			<Gloucester>
+			<red-Leicester>
+		</cheese>
+
+	</dairy>
+
+	<nuts>
+		<almond>
+		<walnut>
+		<cashew>
+		<peanut>
+	</nuts>
+
+	<beans>
+		<tofu>
+		<chickpeas>
+	</beans>
+
+</protein>
